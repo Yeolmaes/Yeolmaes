@@ -1,0 +1,139 @@
+body {
+	margin: 0; 
+	padding: 0;
+	overflow: hidden;
+	background: #08091d; 
+}
+.logo {
+	display: flex; 
+	align-items: center; 
+}  
+.logo {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+.logo img {
+	max-width: 100px; 
+	height: auto; 
+	margin-right: 10px;
+}  
+.logo h1 {
+	margin: 0; 
+	font-size: 24px; 
+}
+.logo img {
+	max-width: 100px; 
+	height: auto; 
+	margin-right: 10px; 
+	border-radius: 50%; 
+}
+.menu {
+	display: flex; 
+	justify-content: space-between; 
+	list-style: none; 
+	margin: 0;
+	padding: 0;
+	width: 100%; 
+}  
+.menu li {
+	flex-basis: 12.5%; 
+	text-align: center; 
+}  
+.menu li a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #333;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 65px;
+    padding-right: 20px;
+    padding-top: 55px;
+}
+nav {
+	background-color: #08091d;
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+	position: relative;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: aqua;
+}
+nav ul li a:hover
+{
+    color: aqua;
+}
+a
+{
+	font-family: 'Times New Roman';
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 28px;
+}
+.carousel{
+    height: 600px; 
+    perspective: 200px;
+}
+.carousel .carousel-item{
+	width: 640px;
+	height: 400px;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	max-width: 500px;
+	margin: auto;
+	text-align: center;
+	border-radius: 10px;
+	height: 450px;
+}
+.img-area{
+	border-radius: 10px 10px 0 0;
+	height: 200px;
+	background-size: cover;
+	background-position: center center;
+}
+h4 {
+	font-size: 35px;
+	line-height: 1.5;
+	margin: 15px 0;
+	font-family: 'Bebas Neue', cursive;
+}
+.card p{
+	font-size: 17px;
+}
+.container {
+  padding: 2px 16px;
+}
